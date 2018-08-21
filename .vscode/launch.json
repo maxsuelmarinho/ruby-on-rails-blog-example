@@ -14,6 +14,16 @@
             "env": {
                 "RAILS_ENV": "development"
             }
-        }
+        },
+        {
+            "name": "Listen for rdebug-ide",
+            "type": "Ruby",
+            "request": "attach",
+            "cwd": "${workspaceRoot}",
+            "remoteHost": "peasant",
+            "remotePort": "1234",
+            "remoteWorkspaceRoot": "/home/vagrant/projects/maxsuelmarinho/ruby-on-rails-blog-example",
+            "showDebuggerOutput": true
+        },
     ]
 }
