@@ -20,9 +20,9 @@
             "type": "Ruby",
             "request": "attach",
             "cwd": "${workspaceRoot}",
-            "remoteHost": "peasant",
+            "remoteHost": "127.0.0.1",
             "remotePort": "1234",
-            "remoteWorkspaceRoot": "/home/vagrant/projects/maxsuelmarinho/ruby-on-rails-blog-example",
+            "remoteWorkspaceRoot": "${env:REMOTE_WORKSPACE}/ruby-on-rails-blog-example",
             "showDebuggerOutput": true
         },
     ]
