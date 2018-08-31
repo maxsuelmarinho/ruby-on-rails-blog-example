@@ -6,6 +6,6 @@ class Comment < ApplicationRecord
   private
 
   def can_destroy?
-    throw(:abort) unless %w(MAX).include? commenter
+    throw(:abort) if %w(ADMIN).include? commenter
   end
 end
